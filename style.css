@@ -1,0 +1,38 @@
+h1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultArea {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user_input{
+    all:unset;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: .25rem;
+}
+
+#play_button{
+    /* border: 1px solid red; */
+    all:unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: .25rem;
+    &:hover, &:focus {
+        background-color: #f4f2f2;
+
+}
