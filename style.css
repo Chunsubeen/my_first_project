@@ -1,3 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(wallpaper.webp);
+    background-size: cover;
+}
+.all{
+    /* border: 1px solid red; */
+    border-radius: .50rem;
+    background-color: rgba(247, 243, 242, 0.6);
+    margin:10px 30%;
+    box-shadow: 68px 48px 206px -7px rgba(0,0,0,0.44);
+
+    
+}
 h1{
     /* border: 1px solid red; */
     display: flex;
@@ -5,6 +20,11 @@ h1{
     align-items: center;
 }
 
+#answer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 #resultArea {
     /* border: 1px solid red; */
     display: flex;
@@ -12,20 +32,31 @@ h1{
     align-items: center;
 }
 
+#chance_area{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #contain {
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #user_input{
-    all:unset;
-    border: 1px solid rgb(156, 156, 156);
+    /* border: 1px solid red; */
+    /* all:unset;
+    border: 1px solid rgb(156, 156, 156); */
     border-radius: .25rem;
 }
 
 #play_button{
     /* border: 1px solid red; */
-    all:unset;
+    /* all:unset; */
+    background-color:#ffa600;
+    margin:0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +64,35 @@ h1{
     height: 2.25rem;
     border-radius: .25rem;
     &:hover, &:focus {
-        background-color: #f4f2f2;
+        background-color: #ffd47e;
+    }
+}
 
+#reset_button{
+    /* border: 1px solid red; */
+    /* all:unset; */
+    background-color:#ffa600;
+    margin:0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 2.25rem;
+    border-radius: .25rem;
+    &:hover, &:focus {
+        background-color: #ffd47e;
+    }
+}
+
+#number_history{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 48rem) {
+    h1 {
+        font-size: 3vw;
+    }
 }
