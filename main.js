@@ -12,7 +12,7 @@ let numberHistory = document.getElementById("number_history");
 
 playButton.addEventListener("click",play);
 resetButton.addEventListener("click",reset);
-userInput,addEventListener("focus",function(){
+userInput.addEventListener("focus",function(){
     userInput.value="";
 });
 
